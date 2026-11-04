@@ -197,13 +197,11 @@ public class GlobalExpander implements NativeKeyListener {
         alphabetToSymbolsMap.put("+++", "∞");
         alphabetToSymbolsMap.put("---", "∅");
         alphabetToSymbolsMap.put("===", "≠");
-        alphabetToSymbolsMap.put(">>>", "≥");
-        alphabetToSymbolsMap.put("<<<", "≤");
+        alphabetToSymbolsMap.put("BBB", "≥");//alphabetToSymbolsMap.put(">>>", "≥");
+        alphabetToSymbolsMap.put("LLL", "≤");//alphabetToSymbolsMap.put("<<<", "≤");
 
         alphabetToSymbolsMap.put("==-", "≈");
         alphabetToSymbolsMap.put("=--", "∼");
-        // alphabetToSymbolsMap.put("<<<", "≤");
-        // alphabetToSymbolsMap.put("<<<", "≤");
 
         //matematické znaky
         alphabetToSymbolsMap.put("?0?", "°");
@@ -261,9 +259,8 @@ public class GlobalExpander implements NativeKeyListener {
         alphabetToSymbolsMap.put("+++", "∞");
         alphabetToSymbolsMap.put("---", "∅");
         alphabetToSymbolsMap.put("===", "≠");
-        alphabetToSymbolsMap.put(">>>", "≥");
-        alphabetToSymbolsMap.put("<<<", "≤");
-
+        alphabetToSymbolsMap.put("bbb", "≥");//  alphabetToSymbolsMap.put(">>>", "≥");
+        alphabetToSymbolsMap.put("lll", "≤");// alphabetToSymbolsMap.put("<<<", "≤");
         alphabetToSymbolsMap.put("==-", "≈");
         alphabetToSymbolsMap.put("=--", "∼");
 
