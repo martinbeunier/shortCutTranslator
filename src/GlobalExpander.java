@@ -2,14 +2,22 @@ import com.github.kwhat.jnativehook.GlobalScreen;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
 
-import java.awt.Robot;
-import java.awt.Toolkit;
+import java.awt.Image;
+import java.awt.PopupMenu;
+import java.awt.MenuItem;
+import java.awt.SystemTray;
+import java.awt.TrayIcon;
+import javax.imageio.ImageIO;
+
+import java.awt.*;
 import java.awt.datatransfer.*;
         import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.*;
+
+
 
 public class GlobalExpander implements NativeKeyListener {
 
@@ -84,8 +92,9 @@ public class GlobalExpander implements NativeKeyListener {
                 System.out.println(text);
                 break;
 
-        }
 
+        }
+        tray();
 
       //  System.out.println("Běží. Ukončení: Ctrl+C v konzoli.");
     }
@@ -609,6 +618,20 @@ public class GlobalExpander implements NativeKeyListener {
         {
             return input;
         }
+    }
+    private static void tray() throws Exception {
+        if (!SystemTray.isSupported()) return;
+        Image img = ImageIO.read(GlobalExpander.class.getResource("/icon.png"));
+        PopupMenu menu = new PopupMenu();
+        MenuItem exit = new MenuItem("Konec");
+        exit.addActionListener(e -> {
+            try { GlobalScreen.unregisterNativeHook(); } catch (Exception ignored) {}
+            System.exit(0);
+        });
+        menu.add(exit);
+        TrayIcon icon = new TrayIcon(img, "Symboly", menu);
+        icon.setImageAutoSize(true);
+        SystemTray.getSystemTray().add(icon);
     }
 }
 
