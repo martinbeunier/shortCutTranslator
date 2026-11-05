@@ -1,0 +1,314 @@
+This is program for easier typing special characters in os .
+
+@ - character from keyboard : abc...
+russian alphabet has format *@@-
+greek alphabet +@@-
+some german alphabet characters /@@-
+powers **@-
+
+Table of characters :
+
+special characters
+# Logic operators
+AAA	∧
+OOO	∨
+NNN	¬
+III	⇒
+QQQ	≡
+XXX	⊕
+A??	∀
+E??	∃
+aaa	∧
+ooo	∨
+nnn	¬
+iii	⇒
+qqq	≡
+xxx	⊕
+a??	∀
+e??	∃
+
+# Sets
+?A?	∩
+?O?	∪
+?V?	⊆	# subset
+?V!	⊇
+?P?	⊂	# proper subset
+?P!	⊃
+?D?	∁	# complement
+?E?	∈
+?N?	∉
+?a?	∩
+?o?	∪
+?v?	⊆	# subset
+?v!	⊇
+?p?	⊂	# proper subset
+?p!	⊃
+?d?	∁	# complement
+?e?	∈
+?n?	∉
+
+# Values and relational operators + symbols similar to =
++++	∞
+---	∅
+===	≠
+BBB	≥	# alternative: >>>
+LLL	≤	# alternative: <<<
+==-	≈
+=--	∼
+bbb	≥
+lll	≤
+
+# Mathematical symbols
+?0?	°
++O-	±
+SQR	√
+ITG	∫
+SSS	∑
+PPP	∏
+DDD	Δ	# possible duplicate with Greek alphabet
+ddd	δ	# possible duplicate with Greek alphabet
++o-	±
+sqr	√
+itg	∫
+sss	∑
+ppp	∏
+dlt	Δ	# changed, "ddd" would collide with δ
+
+# Number sets
++NN	ℕ
++ZZ	ℤ
++QQ	ℚ
++RR	ℝ
++CC	ℂ
++nn	ℕ
++zz	ℤ
++qq	ℚ
++rr	ℝ
++cc	ℂ
+
+# Arrows
+-WW	↑
+-WD	↗
+-DD	→
+-SD	↘
+-SS	↓
+-SA	↙
+-AA	←
+-WA	↖
+-AD	⇄
+-ww	↑
+-wd	↗
+-dd	→
+-sd	↘
+-ss	↓
+-sa	↙
+-aa	←
+-wa	↖
+-ad	⇄
+
+# Cyrillic - uppercase
+*AA-	А
+*BB-	Б
+*VV-	В
+*GG-	Г
+*DD-	Д
+*JE-	Е
+*JO-	Ё
+*ŽŽ-	Ж
+*ZZ-	З
+*II-	И
+*JJ-	Й
+*KK-	К
+*LL-	Л
+*MM-	М
+*NN-	Н
+*OO-	О
+*PP-	П
+*RR-	Р
+*SS-	С
+*TT-	Т
+*UU-	У
+*FF-	Ф
+*CH-	Х
+*CC-	Ц
+*ČČ-	Ч
+*ŠŠ-	Ш
+*ŠČ-	Щ
+*TZ-	Ъ	# hard sign
+*YY-	Ы
+*MZ-	Ь	# soft sign
+*EE-	Э
+*JU-	Ю
+*JA-	Я
+
+# Cyrillic - lowercase
+*aa-	а
+*bb-	б
+*vv-	в
+*gg-	г
+*dd-	д
+*je-	е
+*jo-	ё
+*žž-	ж
+*zz-	з
+*ii-	и
+*jj-	й
+*kk-	к
+*ll-	л
+*mm-	м
+*nn-	н
+*oo-	о
+*pp-	п
+*rr-	р
+*ss-	с
+*tt-	т
+*uu-	у
+*ff-	ф
+*ch-	х
+*cc-	ц
+*čč-	ч
+*šš-	ш
+*šč-	щ
+*tz-	ъ	# hard sign
+*yy-	ы
+*mz-	ь	# soft sign
+*ee-	э
+*ju-	ю
+*ja-	я
+
+# Greek - lowercase
++aa-	α
++bb-	β
++gg-	γ
++dd-	δ
++ee-	ε
++zz-	ζ
++et-	η
++th-	θ
++io-	ι
++kk-	κ
++ll-	λ
++mm-	μ
++nn-	ν
++xx-	ξ
++oo-	ο
++pp-	π
++rr-	ρ
++ss-	σ
++sf-	ς	# final sigma
++tt-	τ
++uu-	υ
++ph-	φ
++ch-	χ
++ps-	ψ
++om-	ω
+
+# Greek - uppercase
++AA-	Α
++BB-	Β
++GG-	Γ
++DD-	Δ
++EE-	Ε
++ZZ-	Ζ
++ET-	Η
++TH-	Θ
++IO-	Ι
++KK-	Κ
++LL-	Λ
++MM-	Μ
++NN-	Ν
++XX-	Ξ
++OO-	Ο
++PP-	Π
++RR-	Ρ
++SS-	Σ
++TT-	Τ
++UU-	Υ
++PH-	Φ
++CH-	Χ
++PS-	Ψ
++OM-	Ω
+
+# German characters + others - lowercase
+/aa-	ä
+/oo-	ö
+/uu-	ü
+/bb-	ß
+/ae-	æ
+/oe-	œ
+
+# German characters + others - uppercase
+/AA-	Ä
+/OO-	Ö
+/UU-	Ü
+/BB-	ẞ	# capital sharp s
+/AE-	Æ
+/OE-	Œ
+
+# Superscript - digits
+**0-	⁰
+**1-	¹
+**2-	²
+**3-	³
+**4-	⁴
+**5-	⁵
+**6-	⁶
+**7-	⁷
+**8-	⁸
+**9-	⁹
+
+# Superscript - lowercase letters
+**a-	ᵃ
+**b-	ᵇ
+**c-	ᶜ
+**d-	ᵈ
+**e-	ᵉ
+**f-	ᶠ
+**g-	ᵍ
+**h-	ʰ
+**i-	ⁱ
+**j-	ʲ
+**k-	ᵏ
+**l-	ˡ
+**m-	ᵐ
+**n-	ⁿ
+**o-	ᵒ
+**p-	ᵖ
+**q-	q	# no Unicode superscript q, plain letter used
+**r-	ʳ
+**s-	ˢ
+**t-	ᵗ
+**u-	ᵘ
+**v-	ᵛ
+**w-	ʷ
+**x-	ˣ
+**y-	ʸ
+**z-	ᶻ
+
+# Superscript - uppercase letters
+**A-	ᴬ
+**B-	ᴮ
+**C-	ᶜ	# no uppercase superscript C, lowercase used
+**D-	ᴰ
+**E-	ᴱ
+**F-	ᶠ	# no uppercase superscript F, lowercase used
+**G-	ᴳ
+**H-	ᴴ
+**I-	ᴵ
+**J-	ᴶ
+**K-	ᴷ
+**L-	ᴸ
+**M-	ᴹ
+**N-	ᴺ
+**O-	ᴼ
+**P-	ᴾ
+**Q-	Q	# no Unicode superscript Q, plain letter used
+**R-	ᴿ
+**S-	ˢ	# no uppercase superscript S, lowercase used
+**T-	ᵀ
+**U-	ᵁ
+**V-	ⱽ
+**W-	ᵂ
+**X-	ˣ	# no uppercase superscript X, lowercase used
+**Y-	ʸ	# no uppercase superscript Y, lowercase used
+**Z-	ᶻ	# no uppercase superscript Z, lowercase used
